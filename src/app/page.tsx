@@ -3,8 +3,8 @@ import Hero from "./Components/main/Hero";
 
 export default function Home() {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
-      <div className="max-w-7xl w-full">
+    <main className="h-full w-full">
+      <div className="flex flex-col justify-center items-center h-[850px] w-full">
         <Hero/>
 
       </div>

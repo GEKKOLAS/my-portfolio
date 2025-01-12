@@ -12,7 +12,7 @@ const Navbar = () => {
           className="h-auto w-auto flex flex-row items-center"
         >
           <Image
-            src="/NavLogo.png"
+            src="/splasheado.png"
             alt="logo"
             width={70}
             height={70}
@@ -20,7 +20,7 @@ const Navbar = () => {
           />
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            WebChain Dev
+            Portfolio
           </span>
         </a>
 
