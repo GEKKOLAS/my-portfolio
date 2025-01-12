@@ -3,13 +3,16 @@ import { Inter } from "next/font/google";
 
 import "./globals.css";
 import { ThemeProvider } from "./providers";
+import Navbar from "./Components/main/Navbar";
+import Footer from "./Components/main/Footer";
+
 
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Adrian's Portfolio",
-  description: "Modern & Minimal JS Mastery Portfolio",
+  title: "Nicolas Portfolio",
+  description: "Modern & Minimal personal Portfolio",
 };
 
 export default function RootLayout({
@@ -31,6 +34,9 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
+        <Navbar />
+        <Footer />
+        
       </body>
     </html>
   );
