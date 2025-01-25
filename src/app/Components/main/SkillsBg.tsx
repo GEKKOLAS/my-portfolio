@@ -8,7 +8,7 @@ const SkillsBg = () => {
         autoPlay
         muted
         loop
-        className="rotate-180 absolute h-full w-full left-0 z-[1] object-cover opacity-20"
+        className="rotate-180 absolute h-full w-full left-0 z-[1] object-cover opacity-80"
       >
         <source src="/bg6.mp4" type="video/webm" />
       </video>

@@ -1,8 +1,8 @@
 "use client"
 
 import React from 'react'
-import {motion} from 'framer-motion'
-import { useInView } from 'react-intersection-observer'
+import {motion, useInView} from 'framer-motion'
+
 import Image from 'next/image';
 
 interface Props {
@@ -13,9 +13,10 @@ interface Props {
 }
 
 const SkillDataProvider = ({ src, width, height, index} : Props) => {
-    const {ref, inView} = useInView({
-        triggerOnce: true
-    })
+    const ref = React.useRef(null);
+    const inView = useInView(ref, {
+        once: true
+    });
 
     const imageVariants = {
         hidden: {opacity: 0},

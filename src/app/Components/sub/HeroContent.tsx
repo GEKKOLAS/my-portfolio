@@ -11,7 +11,8 @@ import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import MagicButton from "../MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
-import { ReactTyped } from "react-typed";
+import { ReactTyped } from 'react-typed';
+
 
 const HeroContent = () => {
   return (
