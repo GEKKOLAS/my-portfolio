@@ -17,7 +17,7 @@ export const About = () => {
                         About Me
                     </h1>
                     <p></p>
-                    <p className="text-grey-100 max-w-lg mx-auto my-2 text-lg text-center  justify-normal relative z-10">
+                    <p className="text-white max-w-lg mx-auto my-2 text-lg text-center  justify-normal relative z-10">
 
                         I&apos;m an Administrative professional and a passionate software developer with a strong foundation in .NET, React, and Next.js. With several years of experience in building dynamic and responsive web applications,
                         I have honed my skills in creating seamless user experiences and optimizing performance.

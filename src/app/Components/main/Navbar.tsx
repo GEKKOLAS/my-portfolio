@@ -1,4 +1,5 @@
-import { Socials } from "../../constants";
+
+import { Socials } from "@/app/Constants";
 import Image from "next/image";
 import React from "react";
 

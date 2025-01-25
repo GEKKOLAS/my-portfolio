@@ -2,11 +2,8 @@
   import React from "react";
 import SkillText from "./SkillText";
 import SkillDataProvider from "./SkillDataProvider";
-import { Backend_skill,
-    Frontend_skill,
-    Full_stack,
-    Other_skill,
-    Skill_data, } from "@/app/Constants/Index";
+import { Skill_data, Frontend_skill, Backend_skill, Full_stack, Other_skill } from "@/app/Constants";
+
   
   const Skills = () => {
     return (
