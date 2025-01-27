@@ -8,7 +8,7 @@ const Hero = () => {
         autoPlay
         muted
         loop
-        className="rotate-180 absolute h-full w-full z-[1] object-cover opacity-70 "
+        className="rotate-360 absolute h-full w-full z-[1] object-cover opacity-40 "
       >
         <source src="/bg5.mp4" type="video/mp4" />
       </video>

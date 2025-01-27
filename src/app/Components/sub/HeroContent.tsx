@@ -26,7 +26,6 @@ const HeroContent = () => {
             variants={slideInFromLeft(0.5)}
             className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
-            🫡 
             <span className="md:text-6xl sm:text-4xl text-5xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-rose-500">
                 Hi there!{" "} I&apos;m Nicolas a
                 <span>

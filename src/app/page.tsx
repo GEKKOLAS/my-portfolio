@@ -2,7 +2,8 @@ import About from "./Components/main/About";
 import Hero from "./Components/main/Hero";
 import RecentProjects from "./Components/main/RecentProjects";
 import Services from "./Components/main/Services";
-import SkillsBg from "./Components/main/SkillsBg";
+import ServicesBg from "./Components/main/ServicesBg";
+import SkillsBg from "./Components/main/ServicesBg";
 import Skills from "./Components/sub/SkillsContent";
 import { AuroraBackground } from "./Components/ui/aurora-background";
 import { BackgroundBeams } from "./Components/ui/background-beams";
@@ -23,18 +24,18 @@ export default function Home() {
         </div>
       </section>
       <section className=" h-full w-full">
+        <div className="h-full w-full text-center bg-black-900">
+          <Skills />
+        </div>
+      </section>
+      <section className=" h-full w-full">
         <div className="h-full w-full">
-          <SkillsBg />
+          <ServicesBg />
         </div>
       </section>
       <section className=" h-full w-full">
-        <div className="h-full w-full text-center">
-          <RecentProjects />
-        </div>
-      </section>
-      <section className=" h-full w-full">
-        <div className="h-full w-full text-center">
-         <Services />
+        <div className="h-full w-full text-center overflow-hidden">
+            <RecentProjects />
         </div>
       </section>
     </main>

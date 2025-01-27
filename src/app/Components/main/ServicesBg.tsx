@@ -1,5 +1,6 @@
 import React from 'react'
 import Skills from '../sub/SkillsContent'
+import Services from './Services'
 
 const SkillsBg = () => {
   return (
@@ -12,7 +13,7 @@ const SkillsBg = () => {
       >
         <source src="/bg6.mp4" type="video/webm" />
       </video>
-      <Skills/>
+      <Services />
     </div>
   )
 }
