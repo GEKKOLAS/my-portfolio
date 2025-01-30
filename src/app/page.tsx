@@ -14,27 +14,27 @@ export default function Home() {
   return (
     <main className=" h-full w-full">
       <section className=" h-screen w-full">
-        <div className="h-full w-full">
+        <div className="h-full w-full overflow-auto">
           <Hero />
         </div>
       </section>
       <section className=" h-screen w-full">
-        <div className="h-full w-full">
+        <div className="h-full w-full overflow-auto">
           <About />
         </div>
       </section>
       <section className=" h-full w-full">
-        <div className="h-full w-full text-center bg-black-900">
+        <div className="h-full w-full text-center bg-black-900  overflow-auto">
           <Skills />
         </div>
       </section>
       <section className=" h-full w-full">
-        <div className="h-full w-full">
+        <div className="h-full w-full overflow-auto">
           <ServicesBg />
         </div>
       </section>
       <section className=" h-full w-full">
-        <div className="h-full w-full text-center overflow-hidden">
+        <div className="h-full w-full text-center overflow-auto">
             <RecentProjects />
         </div>
       </section>

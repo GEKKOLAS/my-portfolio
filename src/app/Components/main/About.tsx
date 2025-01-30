@@ -4,7 +4,7 @@ import { BackgroundBeams } from '../ui/background-beams'
 
 export const About = () => {
     return (
-        <div className="h-full w-full rounded-md align-middle text-pretty bg-neutral-950 relative flex flex-row items-center justify-center antialiased">
+        <div className="h-full w-full rounded-md align-middle text-pretty bg-neutral-950 relative flex flex-row items-center justify-center antialiased" id="about-me">
             <Image
                 src="/mainIconsdark.svg"
                 alt="work icons"
